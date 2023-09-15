@@ -6,9 +6,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)
-[![Express Badge](https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=flat)](https://expressjs.com/)
+[![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)](https://www.npmjs.com/package/mysql2)
+[![Sequelize Badge](https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=fff&style=flat)](https://sequelize.org/docs/v6/)
+[![.ENV Badge](https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=flat)](https://www.npmjs.com/package/dotenv)
+[![Nodemon Badge](https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff&style=flat)](https://nodemon.io/)
 [![Insomnia Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=fff&style=flat)](https://insomnia.rest/)
-[![MySQL Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=mysql2&logoColor=fff&style=flat)](https://www.npmjs.com/package/mysql2)
+
 </div>
 
 # description
@@ -24,9 +27,18 @@ A back end for e-commerce website that uses the latest technologies-Express.js A
 * [Contact](#contact)
 
 ## Installation
-You’ll need to use the MySQL2Links to an external site. and SequelizeLinks to an external site. packages to connect your Express.js API to a MySQL database and the dotenv packageLinks to an external site. to use environment variables to store sensitive data, like your MySQL username, password, and database name.
-
-Use the schema.sql file in the db folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
+* Check if you have Node.js installed by typing `node -v` in your command line. If node is not installed, visit the [Node.js](https://nodejs.org/en) website to install. 
+* Next, clone this project repository to your computer. 
+* Use the command `npm i` to install dependencies. 
+* Create a file in the root directory titled `.env` and include database name and personal MySQL login information:
+```
+DB_NAME='YOUR DATABASE NAME'
+DB_USER='YOUR USERNAME'
+DB_PW='YOUR PASSWORD'
+```
+* Open MySQL with command `mysql -u root -p` and enter your personal MySQL password. 
+* Create databse with command `source schema.sql`. Log out of MySQL with command `\q`.
+* Seed database with command `npm run seed`.
 
 ## Usage
 * GIVEN a functional Express.js API
