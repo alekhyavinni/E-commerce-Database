@@ -8,6 +8,7 @@
 [![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)
 [![Express Badge](https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=flat)](https://expressjs.com/)
 [![Insomnia Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=insomnia&logoColor=fff&style=flat)](https://insomnia.rest/)
+[![MySQL Badge](https://img.shields.io/badge/Insomnia-4000BF?logo=mysql2&logoColor=fff&style=flat)](https://www.npmjs.com/package/mysql2)
 </div>
 
 # description
